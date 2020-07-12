@@ -1,0 +1,15 @@
+<h4>Items:</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Item ID</th>
+            <th>Item Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="menuItem in itemCtrl.menuItems">
+            <td>{{menuItem.id}}</td>
+            <td>{{menuItem.name}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+body {
+  font-size: 1.2em;
+}
+
+div.tabs > a, div.tabs > button {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+div.tabs {
+  margin-bottom: 10px;
+}
+
+.activeTab {
+  font-weight: bold;
+}
+
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.itemDetail {
+  float: left;
+}
+
+.categories {
+  margin-right: 50px;
+  float: left;
+}
